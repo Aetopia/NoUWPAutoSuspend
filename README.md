@@ -21,5 +21,14 @@ Execept one may not post these apps onto the store but may sideload them, by usi
     NoUWPAutoSuspend.exe windows.immersivecontrolpanel_cw5n1h2txyewy
     ```
 
-4. Now simply minimize or make the target app(s) fullscreen and switch to a Win32/Desktop app to have the system cloak it.
+4. The application will sliently in the background.<br>Now simply minimize or make the target app(s) fullscreen and switch to a Win32/Desktop app to have the system cloak it.<br>
     The target app(s) will not be suspended by the system.
+
+# Build
+1. Download and install the .NET SDK and .NET Framework 4.8.1 Developer Pack from:<br>https://dotnet.microsoft.com/en-us/download/visual-studio-sdks
+2. Run the following commands:
+
+    ```cmd
+    dotnet restore NoUWPAutoSuspend/NoUWPAutoSuspend.csproj
+    dotnet build NoUWPAutoSuspend/NoUWPAutoSuspend.csproj --configuration Release
+    ```
