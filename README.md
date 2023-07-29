@@ -5,7 +5,7 @@ An application to prevent Windows from automatically suspending UWP apps when th
 **The obvious question is why prevent UWP apps from automatically suspending when not active?**<br>
 In some cases, this be undesirable behavior if the target app needs to be running even when not active.<br>
 [There is an API available for this which prevents UWP apps from being suspended by system.](https://learn.microsoft.com/en-us/windows/uwp/launch-resume/run-in-the-background-indefinetly)<br>
-Execept one may not post these apps onto the store but may sideload them, by using this program or the very implementation this program uses, one may bypass that.<br>
+Except one may not post these apps onto the store but may sideload them, by using this program or the very implementation this program uses, one may bypass that.<br>
 
 # Usage
 1. Download the latest release from GitHub Release.
