@@ -8,7 +8,7 @@ In some cases, this be undesirable behavior if the target app needs to be runnin
 Except one may not post these apps onto the store but may sideload them, by using this program or the very implementation this program uses, one may bypass that.<br>
 
 # Usage
-1. Download the latest release from GitHub Release.
+1. Download the latest release from [GitHub Releases](https://github.com/Aetopia/NoUWPAutoSuspend/releases/latest).
 2. Now obtain the Package Family Name for the desired UWP apps that are supposed to be **not suspended**.<br>
     Only include apps that might require this functionality like real time applications.<br>
     Use the following command in Windows PowerShell to locate the desired names:<br><br>
